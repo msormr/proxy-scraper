@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "version": "1.34.0",
+ "started": "2026-11-21T17:31:47+00:00",
+ "finished": "2026-11-21T17:36:19+00:00",
+ "targets": {
+  "basic": "checkip.amazonaws.com",
+  "basic_switches": [],
+  "confirm": "httpbin.org",
+  "content_reference": true,
+  "confirm_fallback": "ipv4.icanhazip.com",
+  "content_fallback": "example.com"
+ },
+ "candidates": 150000,
+ "checked": 150000,
+ "not_checked": 0,
+ "no_verdict_local": 0,
+ "stopped": null,
+ "working": 1531,
+ "kept": 1531,
+ "checks": {
+  "basic": {
+   "passed": 2478,
+   "failed:bad_status": 33843,
+   "failed:connect_failed": 6,
+   "failed:connect_refused": 11770,
+   "failed:connect_timeout": 50216,
+   "failed:connection_closed": 1962,
+   "failed:handshake_refused": 13002,
+   "failed:invalid_response": 372,
+   "failed:known_unreachable": 25867,
+   "failed:no_answer": 2207,
+   "failed:own_ip_exposed": 1971,
+   "failed:private_exit_ip": 21,
+   "failed:timeout": 6285
+  },
+  "fallback": {
+   "failed:connect_failed": 2,
+   "failed:connect_refused": 2,
+   "failed:connect_timeout": 137,
+   "failed:connection_closed": 1215,
+   "failed:handshake_refused": 8796,
+   "failed:invalid_response": 19,
+   "failed:known_unreachable": 60,
+   "failed:no_answer": 4,
+   "failed:timeout": 2275,
+   "passed": 2
+  },
+  "confirm": {
+   "failed:bad_status": 114,
+   "failed:connect_failed": 12,
+   "failed:connect_refused": 64,
+   "failed:connect_timeout": 573,
+   "failed:connection_closed": 28,
+   "failed:exit_ip_mismatch": 35,
+   "failed:handshake_refused": 12,
+   "failed:invalid_response": 51,
+   "failed:no_answer": 10,
+   "failed:timeout": 34,
+   "passed": 1547
+  },
+  "content": {
+   "failed:content_mismatch": 16,
+   "passed": 1342,
+   "unavailable:bad_status": 13,
+   "unavailable:connect_refused": 8,
+   "unavailable:connect_timeout": 136,
+   "unavailable:connection_closed": 12,
+   "unavailable:handshake_refused": 4,
+   "unavailable:no_answer": 4,
+   "unavailable:timeout": 12
+  },
+  "https": {
+   "failed:connect_refused": 9,
+   "failed:connection_closed": 82,
+   "failed:timeout": 451,
+   "failed:tls_certificate_invalid": 49,
+   "failed:tunnel_refused": 127,
+   "passed": 813
+  },
+  "second_chance": {
+   "failed": 662,
+   "passed": 354
+  }
+ },
+ "fallback": {
+  "tried": 12512,
+  "found": 2
+ },
+ "changed_pages": {
+  "with_script_tag": 14,
+  "without_script_tag": 2
+ }
+}

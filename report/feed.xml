@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The week in free proxies</title>
+  <subtitle>How long free proxies stay listed and which sites let them through – checked about hourly</subtitle>
+  <link rel="self" href="https://proxy-scraper.de/report/feed.xml"/>
+  <link rel="alternate" href="https://proxy-scraper.de/report/"/>
+  <id>https://proxy-scraper.de/report/</id>
+  <updated>2026-11-16T00:00:00Z</updated>
+  <author><name>proxy-scraper</name></author>
+  <entry>
+    <title>The week in free proxies: Nov 14 – Nov 16, 2026</title>
+    <link rel="alternate" href="https://proxy-scraper.de/report/"/>
+    <id>https://proxy-scraper.de/report/2026-W46</id>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <content type="text">3,887 different type://ip:port entries passed every check at least once (many are ports on the same host). Of the 2,800 that left the list again, 90 % were not on the next list. None of them had been on it for 24 runs in a row (about a day).
+
+In the last run Google let 46 % of the 125 HTTPS-capable proxies that gave a clear answer through – 32 % of datacenter exits, 51 % of the other exits.
+
+In the last run Reddit let 66 % of the 137 HTTPS-capable proxies that gave a clear answer through – 42 % of datacenter exits, 73 % of the other exits.
+
+In the last run Amazon let 25 % of the 159 HTTPS-capable proxies that gave a clear answer through – 25 % of datacenter exits, 24 % of the other exits.
+
+In the last run Instagram let 34 % of the 149 HTTPS-capable proxies that gave a clear answer through – 16 % of datacenter exits, 39 % of the other exits.
+
+In the last run TikTok let 51 % of the 146 HTTPS-capable proxies that gave a clear answer through – 81 % of datacenter exits, 42 % of the other exits.
+
+In the last run Discord let 92 % of the 130 HTTPS-capable proxies that gave a clear answer through – 100 % of datacenter exits, 90 % of the other exits.
+
+Between 637 and 1,146 entries were on the list at any one time. Right now: 637, 47 % of them tunnel HTTPS to the test host, 30 % are datacenter exits (the provider name looks like a hosting company).
+
+Downloading 100 KB through the HTTPS-capable ones, counting the downloads that finished: half manage 75 KiB/s or more, the fastest tenth over 150 KiB/s.
+
+Most exit IPs are in United States (207), Netherlands (47), Indonesia (37), China (27), ZW (26).</content>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom">
+    <title>The week in free proxies: Nov 14 – Nov 14, 2026</title>
+    <link rel="alternate" href="https://proxy-scraper.de/report/" />
+    <id>https://proxy-scraper.de/report/2026-W45</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <content type="text">838 different type://ip:port entries passed every check at least once (many are ports on the same host).
+
+In the last run Google let 28 % of the 239 HTTPS-capable proxies that gave a clear answer through – 30 % of datacenter exits, 26 % of the other exits.
+
+In the last run Reddit let 26 % of the 221 HTTPS-capable proxies that gave a clear answer through – 36 % of datacenter exits, 23 % of the other exits.
+
+In the last run Amazon let 9 % of the 274 HTTPS-capable proxies that gave a clear answer through – 11 % of datacenter exits, 9 % of the other exits.
+
+In the last run Instagram let 12 % of the 251 HTTPS-capable proxies that gave a clear answer through – 10 % of datacenter exits, 12 % of the other exits.
+
+In the last run TikTok let 75 % of the 243 HTTPS-capable proxies that gave a clear answer through – 53 % of datacenter exits, 82 % of the other exits.
+
+In the last run Discord let 81 % of the 225 HTTPS-capable proxies that gave a clear answer through – 100 % of datacenter exits, 75 % of the other exits.
+
+Between 838 and 838 entries were on the list at any one time. Right now: 838, 48 % of them tunnel HTTPS to the test host, 27 % are datacenter exits (the provider name looks like a hosting company).
+
+Downloading 100 KB through the HTTPS-capable ones, counting the downloads that finished: half manage 96 KiB/s or more, the fastest tenth over 146 KiB/s.
+
+Most exit IPs are in United States (394), Netherlands (46), Japan (44), ZW (26), China (25).</content>
+  </entry>
+
+</feed>
